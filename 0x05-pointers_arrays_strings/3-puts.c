@@ -2,16 +2,20 @@
 
 /**
  * _puts - a function that prints a string
- * @str: string input
- * Return: string
+ * @str: string to print
+ *
+ * Description: print a string
+ * On success: returns mo error
  */
+
 void _puts(char *str)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; str[i] != '\0'; i++)
+	while (*(str + i) != '\0')
 	{
-		_putchar(str[i]);
+		putchar(*(str + i));
+		i++;
 	}
-	_putchar('\n');
+	putchar(10);
 }
