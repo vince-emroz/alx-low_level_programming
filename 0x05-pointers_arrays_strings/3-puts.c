@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -5,7 +6,7 @@
  * @str: string to print
  *
  * Description: print a string
- * On success: returns mo error
+ * On success: returns no error
  */
 
 void _puts(char *str)
