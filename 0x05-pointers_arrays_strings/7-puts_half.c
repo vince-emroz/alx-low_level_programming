@@ -7,6 +7,7 @@
  * Return: no return.
  */
 void puts_half(char *str);
+{
 	int count = 0, i;
 
 	while (count >= 0)
@@ -24,3 +25,4 @@ void puts_half(char *str);
 	for (i++; i < count; i++)
 		_putchar(str[i]);
 	_putchar('\n');
+}
