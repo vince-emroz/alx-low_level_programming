@@ -1,4 +1,5 @@
-#include "holberton.h"
+#include <stdio.h>
+#include "main.h"
 
 /**
  * _atoi - convert to a int
